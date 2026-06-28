@@ -1,0 +1,97 @@
+body {
+    background: #345e9e;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.container {
+    max-width: 900px;
+    margin: 80px auto;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #345e9e;
+    font-size: 50px;
+    font:italic bold 50px Arial, sans-serif;
+}
+
+h2 {
+    color: #34495e;
+    border-left: 4px solid #000000;
+    padding-left: 10px;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.contact-info p {
+    margin: -3px 0;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills p {
+    background: #eaf2ff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin: 0;
+    border: 1px solid #cfe0ff;
+}
+
+.layout {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.status-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.right h3 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.right p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #3498db;
+}
